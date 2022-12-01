@@ -1,0 +1,19 @@
+# 1. An algorithm that asks the user to enter 4 numbers, sorts those numbers from smallest to largest and 
+# then prints the sorted numbers.
+
+ask user to input a,b,c,d
+
+# Solution 1
+take the first element and compare it with the 2nd element
+	if true: swap and increment i by one
+	if false: increment i by one
+repeat step 2, 3 times
+
+# Solution 2
+2. take a,b and compare them; save the maximum as max1 and minimum as min1
+3. take c,d andd compare them; save the maximum as max2 and minimum as min2
+4. compare max1 and max2 to get the ultimate max value
+5. compare min1 and min2 to get the ultimate min value
+6. compare the other max in 4 and other min in 5 to get their order
+
+

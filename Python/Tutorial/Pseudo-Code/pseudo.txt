@@ -1,0 +1,23 @@
+# 1. An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero values, then
+# determines and outputs the largest of the numbers that were input.
+
+a. Ask the user to enter a number.
+b. if the number is 0 or negative, exit/break.
+c. save the number as an integer.
+d. If this is the first number we’ve seen remember it as the new maximum.
+e. go to step a.
+f. If the new number is larger than our current maximum, remember it as the new maximum.
+
+# 2. An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
+
+get the arbitrary number of integers
+converts to integer
+get the total summation
+get the total length/count of numbers
+divide the summation by length/count
+print the average
+
+# 3. An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still
+# left to buy.
+
+# 4. An algorithm for the flochart below:

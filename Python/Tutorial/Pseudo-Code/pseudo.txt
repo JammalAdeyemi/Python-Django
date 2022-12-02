@@ -17,7 +17,18 @@ get the total length/count of numbers
 divide the summation by length/count
 print the average
 
-# 3. An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still
-# left to buy.
+# 3. An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are 
+# still left to buy.
+
+get the user grocery list
+loop through the list to check for the ones that are left to buy
+get the product names that are left to buy
+sort the product names alphabetical
 
 # 4. An algorithm for the flochart below:
+
+define a variable X and Y
+set S as the summation of X and Y
+set A as the division of S by 2
+set P as the multiplication of X & Y
+print out the results of S,A,P

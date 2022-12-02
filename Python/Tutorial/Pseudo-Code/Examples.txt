@@ -1,0 +1,12 @@
+""" EX 1: write an algorithm that asks a user to input a password, and then stores the password in a variable (the simplest structure we use in coding to store values - you'll learn more about these soon) called password. Subsequently, the algorithm requests input from the user. If the input does not match the password, it stores the incorrect passwords in a list until the correct password is entered, and then prints out the content of the variable "password" (i.e. the right password) and the incorrect passwords:
+"""
+requests input from the user
+store input into variable called "password"
+request second input from the user
+if the second input is equal to "password"
+	print out the "password" and the incorrect inputs (which should be none at this point)
+if the second input is not equal to "password"
+	request input until it matches the correct password
+when second input matches "password"
+	print out "password"
+	and print out all incorrect inputs

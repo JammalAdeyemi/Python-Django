@@ -48,3 +48,6 @@ print(backwards)
 print(letters[16:13:-1]) #qpo
 print(letters[4::-1]) # edcba
 print(letters[:17:-1]) # Last 8 characters in reverse order
+
+d = dict(zip("abc", [1,2,3]))
+print(d)

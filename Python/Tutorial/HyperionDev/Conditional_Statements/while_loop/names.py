@@ -2,7 +2,8 @@ pupils = []
 
 while True:
     name = input("Enter the name of your pupils in class (type stop to exit): ")
-    if name.lower == "stop":
+    stop_count = name.lower()
+    if stop_count == "stop":
         # exit the loop if the user entered "Stop"
         break
     else:

@@ -18,6 +18,7 @@ def display_crime_data(crime_data, city, crime_code):
     for crime_id in crime_data:
         if crime_data[crime_id][0] == city and crime_data[crime_id][2] == crime_code:
             count += 1
-    print("{} in {}: {}".format(crime_data[crime_id][1], city, count))
+            crime_type = crime_data[crime_id][1]
+    print("{} in {}: {}".format(crime_type, city, count))
 
 main()

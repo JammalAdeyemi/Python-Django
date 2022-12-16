@@ -1,0 +1,5 @@
+No, city, crime, crime code
+1, manchester, harrassment, 77
+2, newcastle, take_vehicle, 22
+3, leeds, harrassment, 66
+4, hull, vandalism, 22

@@ -14,10 +14,12 @@ three = "3"
 answerYears = age + int(three)  # TypeError: can only concatenate str (not "int") to str
 
 print("The total number of years: " + str(answerYears))  # TypeError: can only concatenate str (not "int") to str
-answerMonths = answerYears * 12
+answerMonths = answerYears * 12 + 6
 print("In " + str(answerYears) + " years and 6 months, I'll be " + str(answerMonths) + " months old")  # TypeError: can only concatenate str (not "int") to str
 
 #HINT, 330 months is the correct answer
+
+
 
 
 

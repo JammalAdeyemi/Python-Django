@@ -1,0 +1,6 @@
+'r' - Opens the file for reading only. Throws I/O error if the file does not exist.
+'r+' - Opens the file for both reading and writing. Throws I/O error if the file does not exist.
+'w' - Opens the file for writing only. It will create a file if the file doesn’t exist. For the existing files, the data is overwritten.
+'w+' - Opens the file for reading and writing. It will create a file if thefile doesn’t exist. For the existing files, the data is overwritten.
+'a' - Opens the file for writing only, creating the file if it doesn’t exist. Any data being written will be inserted at the end (appended,thus ‘a’), after the existing data.
+'a+' - Opens the file for reading and writing, creating the file if it isn’t there. Any data being written will be inserted at the end (appended, thus ‘a’), after the existing data.

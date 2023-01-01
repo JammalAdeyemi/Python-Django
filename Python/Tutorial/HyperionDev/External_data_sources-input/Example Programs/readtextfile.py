@@ -1,5 +1,5 @@
 def read(filename):
-    y = open(filename,'r')
+    y = open(filename,'r',encoding='utf-8-sig')
     #Is your output displaying strange characters when you run this code?
     #You can fix this by specifying the encoding. Do this by passing the encoding
     #argument through to the open method.
@@ -9,7 +9,8 @@ def read(filename):
 
     print(y.readlines())
     y.close()
- 
+
 read('example.txt')
+read('./example.txt')
  
 

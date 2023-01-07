@@ -7,6 +7,23 @@
     - You can use a list or dictionary to store a list of usernames and passwords from the file.
     - Use a while loop to validate your user name and password.
 '''
+while True:
+    login = input('Enter your username: ')
+    password = input('Enter your password: ')
+
+    with open('user.txt', 'r') as file:
+        lines = [line.strip() for line in file]
+        for line in lines:
+            details = line.split(',')
+            user_login = details[0]
+            user_password = details[1]
+            if login == user_login and password == user_password:
+                print('Welcome to the Task Manager')
+                break
+            else: 
+                print('Wrong username or password, please try again')
+                exit()
+                
 
 while True:
     #presenting the menu to the user and 
